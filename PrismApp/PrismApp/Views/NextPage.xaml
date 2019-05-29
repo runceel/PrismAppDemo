@@ -6,7 +6,7 @@
              x:Class="PrismApp.Views.NextPage"
              Title="{Binding Title}">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="{Binding Id}" 
+        <Label Text="{Binding Message}" 
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
     </StackLayout>
