@@ -23,7 +23,7 @@ namespace PrismApp.ViewModels
 
         public NextPageViewModel(INavigationService navigationService) : base(navigationService)
         {
-            Title = "NextPage";
+            Title = "Next Page";
         }
 
         public override void OnNavigatedTo(INavigationParameters parameters)
